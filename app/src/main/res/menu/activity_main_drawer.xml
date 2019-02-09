@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group>
+        <item
+                android:id="@+id/nav_add_city"
+                android:title="@string/add_city"/>
+
+    </group>
+
+    <item android:title="@string/information">
+        <menu>
+            <item
+                    android:id="@+id/nav_about_dev"
+                    android:title="@string/about_developer"/>
+        </menu>
+    </item>
+
+</menu>
